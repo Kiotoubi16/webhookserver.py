@@ -53,15 +53,3 @@ def health():
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
     app.run(host='0.0.0.0', port=port)
-```
-
-Click **"Commit new file"**
-
----
-
-#### **File 2: `requirements.txt`**
-
-Create another file, name it `requirements.txt`, paste:
-```
-flask==3.0.0
-gunicorn==21.2.0
